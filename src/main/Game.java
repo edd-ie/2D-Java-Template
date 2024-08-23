@@ -8,11 +8,11 @@ import java.awt.*;
  */
 public class Game extends JPanel  implements Runnable{
     // Screen settings
-    private static final int tile = 12;
-    private static final int scale = 3;
-    public static final int tileSize = tile * scale;
-    public static int[] aspectRatio = {32, 18};
-    public static int[] dimensions = {tileSize * aspectRatio[0], tileSize * aspectRatio[1]};
+    private static final int tile = 12; // base pixel
+    private static final int scale = 3; // up scaling for my monitor
+    public static final int tileSize = tile * scale; // actual Pixel
+    public static int[] aspectRatio = {32, 18}; // Basically 16:9
+    public static int[] dimensions = {tileSize * aspectRatio[0], tileSize * aspectRatio[1]}; // screen width & height
 
 
     // Game runtime

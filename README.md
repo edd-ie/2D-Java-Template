@@ -15,7 +15,7 @@ Most of the modification to how the program runs can be done in the `Game class`
 3. Game Fps
 4. Game loop
 
-For changes in regards to key presses can be done in the `EvenListener class`
+For changes in regard to key presses can be done in the `EvenListener class`
 
 ## License
 Template is free, use it how you like it 👍
