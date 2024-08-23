@@ -7,20 +7,20 @@ import javax.swing.*;
  */
 public class Main extends JFrame{
     //Application window
-    public static Game game = new Game();
+    public static Game window = new Game();
 
     public Main(){
         this.setTitle("2D Java Template");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        this.add(game);
+        this.add(window);
         this.pack();
 
         this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
 
-        game.start();
+        window.start();
     }
 
 
